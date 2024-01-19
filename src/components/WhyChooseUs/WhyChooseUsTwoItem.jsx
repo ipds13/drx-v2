@@ -9,7 +9,7 @@ const WhyChooseUsTwoItem = (props) => {
       </div>
       <div className="choose-content">
         <h2 className="title">
-          <Link to={props.item.url}>{props.item.title}</Link>
+          <Link >{props.item.title}</Link>
         </h2>
         <p>{props.item.desc}</p>
       </div>

@@ -9,24 +9,15 @@ const TeamTwo = () => {
   const team_members = [
     {
       src: img01,
-      name: "Cameron Williamson",
-      designation: "Founder & CO",
+      name: "Sanjeev",
+      designation: "Chief Executive Officer",
     },
     {
       src: img02,
-      name: "Eleanor Pena",
-      designation: "Head of Design",
+      name: "Kash",
+      designation: "Chief Marketing Officer",
     },
-    {
-      src: img03,
-      name: "Bessie Cooper",
-      designation: "Vp People",
-    },
-    {
-      src: img04,
-      name: "Darlene Robertson",
-      designation: "Product Manager",
-    },
+   
   ];
 
   return (
@@ -37,8 +28,8 @@ const TeamTwo = () => {
             <div className="section-title text-center mb-60">
               <span className="sub-title">OUr team</span>
               <h2 className="title">
-                The Leadership <br />
-                <span>Team</span>
+                {/* The Leadership <br /> */}
+                <span>The Mastermind</span>
               </h2>
             </div>
           </div>

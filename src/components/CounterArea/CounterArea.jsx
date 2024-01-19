@@ -24,29 +24,23 @@ const CounterArea = () => {
       <div className="container custom-container-four">
         <div className="counter-inner">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-5 col-sm-6">
               <CounterAreaItem
                 icon={icon}
-                amount={amount + 23}
+                amount={1000000}
                 title="Active Installation"
               />
             </div>
 
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-5 col-sm-6">
               <CounterAreaItem
                 icon={icon}
-                amount={amount + 89}
-                title="Active Installation"
+                amount={1000000}
+                title="NFC Claimed"
               />
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <CounterAreaItem
-                icon={icon}
-                amount={amount + 37}
-                title="Active Installation"
-              />
-            </div>
+            
           </div>
         </div>
       </div>

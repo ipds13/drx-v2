@@ -142,30 +142,7 @@ const HeaderTwo = () => {
                           Roadmap
                         </Link>
                       </li>
-                      <li className={isActiveLink("#faq")}>
-                        <Link
-                          to="#faq"
-                          className="section-link"
-                          onClick={() => handleClickScroll("faq")}
-                        >
-                          Faq
-                        </Link>
-                      </li>
-                      <li className={"menu-item-has-children"}>
-                        <Link to="/blog">Blog</Link>
-                        <ul className={cn("sub-menu")}>
-                          <li className={cn(pathname == "/blog" && "active")}>
-                            <Link to="/blog">Our Blog</Link>
-                          </li>
-                          <li
-                            className={cn(
-                              pathname == "/blog-details" && "active"
-                            )}
-                          >
-                            <Link to="/blog-details">Blog Details</Link>
-                          </li>
-                        </ul>
-                      </li>
+                      
                       <li className={isActiveLink("#contact")}>
                         <Link
                           to="#contact"
@@ -179,7 +156,7 @@ const HeaderTwo = () => {
                   </div>
                   <div className="header-action d-none d-md-block">
                     <ul>
-                      <li className="header-lang">
+                      {/* <li className="header-lang">
                         <span className="selected-lang">ENG</span>
                         <ul className="lang-list">
                           <li>
@@ -195,10 +172,10 @@ const HeaderTwo = () => {
                             <Link to="#">CIN</Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li className="header-btn">
                         <Link to="#" className="btn">
-                          Buy Now
+                          Connect Wallet
                         </Link>
                       </li>
                     </ul>

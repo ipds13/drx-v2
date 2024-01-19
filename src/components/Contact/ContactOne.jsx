@@ -8,32 +8,23 @@ const ContactOne = () => {
       icon: "fa-envelope",
       content: (
         <>
-          company@gmail.com <br /> infoweb@gmail.com
+          Support@drxasia.com
         </>
       ),
     },
-    {
-      icon: "fa-phone",
-      content: (
-        <>
-          +84 0977425031
-          <br /> +998 765 775 34
-        </>
-      ),
-    },
+    
     {
       icon: "fa-map-marker-alt",
       content: (
         <>
-          State/province/area: <br />
-          Georgia 198
+          Ventura Building,  South Jakarta City, Jakarta Indonesia <br/>
         </>
       ),
     },
   ];
 
   return (
-    <section id="contact" className="contact-area pt-70 pb-110">
+    <section id="contact" className="team-bg pt-70 pb-110">
       <div className="container">
         {/* section title */}
         <div className="row justify-content-center">
@@ -41,7 +32,7 @@ const ContactOne = () => {
             <div className="section-title text-center mb-70">
               <span className="sub-title">Contact</span>
               <h2 className="title">
-                <span>Contact</span> ICO Crypto
+                Connect with US
               </h2>
             </div>
           </div>
@@ -59,7 +50,7 @@ const ContactOne = () => {
         </div>
 
         {/* section form */}
-        <ContactOneForm />
+        {/* <ContactOneForm /> */}
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import downloadImg from "../../assets/img/images/download_img.png";
-import downloadBtn01 from "../../assets/img/images/download_btn01.png";
-import downloadBtn02 from "../../assets/img/images/download_btn02.png";
+import downloadBtn01 from "../../assets/img/images/download_btn01.svg";
+import downloadBtn02 from "../../assets/img/images/download_btn02.svg";
 
 const DownloadArea = () => {
   return (
@@ -22,14 +22,12 @@ const DownloadArea = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-20">
-                <span className="sub-title">Download ICO App</span>
+                <span className="sub-title">Download OUR App</span>
                 <h2 className="title">
-                  You can treding, control, buy and sell from your mobile
-                </h2>
+                DRX APP: Connect, express, and play in one place!         </h2>
               </div>
               <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
-                platform helps investors to make easy
+              Stay stylish with fashion updates, enjoy seamless gaming, and grab exclusive giveaways. Your all-in-one hub for fashion, entertainment, and community engagement.
               </p>
               <div className="download-btn">
                 <a href="#">

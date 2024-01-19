@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SlickSlider from "../SlickSlider/SlickSlider";
-import icon01 from "../../assets/img/icon/choose_icon01.svg";
+import icon01 from "../../assets/img/event/GARUDAKU DRX 2.jpg";
 import icon02 from "../../assets/img/icon/choose_icon02.svg";
 import icon03 from "../../assets/img/icon/choose_icon03.svg";
 import icon04 from "../../assets/img/icon/choose_icon04.svg";
@@ -116,7 +116,7 @@ const WhyChooseUs = () => {
   const toMultiply = 100 / slider_items.length;
 
   return (
-    <section className="choose-area pb-130">
+    <section className=" team-bg pb-130">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6">

@@ -1,7 +1,7 @@
 import React from "react";
 import About from "../../components/About/About";
 import BannerTwo from "../../components/Banner/BannerTwo";
-import ContactTwo from "../../components/Contact/ContactTwo";
+import ContactTwo from "../../components/Contact/ContactOne";
 import CountDownTwo from "../../components/CountDown/CountDownTwo";
 import CounterArea from "../../components/CounterArea/CounterArea";
 import DownloadArea from "../../components/DownloadArea/DownloadArea";
@@ -11,6 +11,8 @@ import RoadmapTwo from "../../components/Roadmap/RoadmapTwo";
 import TeamTwo from "../../components/Team/TeamTwo";
 import WhyChooseUsTwo from "../../components/WhyChooseUs/WhyChooseUsTwo";
 import LayoutTwo from "../../layouts/LayoutTwo";
+import Sales from "../../components/Sales/Sales";
+import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs"; 
 
 const HomeTwo = () => {
   return (
@@ -22,11 +24,12 @@ const HomeTwo = () => {
         <WhyChooseUsTwo />
         <CounterArea />
         <RoadmapTwo />
+        {/* <Sales /> */}
         <TeamTwo />
         <DownloadArea />
-        <Faq />
+        {/* <WhyChooseUs /> */}
         <ContactTwo />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
     </LayoutTwo>
   );

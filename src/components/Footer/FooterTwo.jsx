@@ -11,7 +11,7 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="footer-menu-two">
-                  <ul className="navigation">
+                  {/* <ul className="navigation">
                     <li>
                       <Link to="/">About us</Link>
                     </li>
@@ -24,12 +24,12 @@ const FooterTwo = () => {
                     <li>
                       <Link to="/">Career</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="footer-social">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">
                         <i className="fab fa-facebook-square"></i>
@@ -50,7 +50,7 @@ const FooterTwo = () => {
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-lg-5">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2022. All Rights Reserved Bigtech</p>
+                  <p>Copyright &copy; 2024. All Rights Reserved</p>
                 </div>
               </div>
               <div className="col-lg-2">

@@ -9,27 +9,27 @@ const WhyChooseUsTwo = () => {
   const items = [
     {
       src: icon01,
-      title: "Mobile payment make easy",
-      desc: "Add new, trending and rare artwork to your collection.",
-      url: "/home-two",
+      title: "DRX Apps - Your All-in-One Solution",
+      desc: "Unlock the full potential of the DRX app, serving as your comprehensive platform for scanning NFC, claiming apparel, checking live football match results, integrating NFTs, buying and selling DRX apparel, and engaging in clothing swaps. Seamlessly navigate through diverse functionalities, making DRX your ultimate destination for a multifaceted experience.",
+      url: "/#",
     },
     {
       src: icon02,
-      title: "Lifetime free transaction",
-      desc: "Add new, trending and rare artwork to your collection.",
-      url: "/home-two",
+      title: "Security Guaranteed with Ethereum Technology",
+      desc: "Harness the power of Ethereum to ensure high-level transaction security. As part of the Ethereum blockchain ecosystem, every purchase, sale, or exchange of DRX tokens is secured through a safe, reliable, and decentralized process. Utilizing Ethereum technology ensures an optimal level of security to safeguard both funds and user data.",
+      url: "/#",
     },
     {
       src: icon03,
-      title: "Protect the identity",
-      desc: "Add new, trending and rare artwork to your collection.",
-      url: "/home-two",
+      title: "NFC-Enabled Apparel",
+      desc: "Enjoy added convenience and security with apparel equipped with NFC technology. With this technology, you can make transactions or access information with a simple touch, enhancing your shopping or interaction experience with the DRX app, making it faster and more efficient.",
+      url: "/#",
     },
     {
       src: icon04,
-      title: "Sercurity & control over money",
-      desc: "Add new, trending and rare artwork to your collection.",
-      url: "/home-two",
+      title: "Charitable Utility Program",
+      desc: "Make a positive impact with our utility program geared towards charity. DRX tokens not only provide additional perks for users but also contribute to various charitable causes. Participate in transactions and help support meaningful initiatives through the DRX app.",
+      url: "/#",
     },
   ];
 
@@ -40,7 +40,7 @@ const WhyChooseUsTwo = () => {
           <div className="col-lg-6">
             <div className="section-title text-center mb-70">
               <span className="sub-title">why Choose us</span>
-              <h2 className="title">Why you choose our bigtech Token</h2>
+              <h2 className="title">Why you choose DRX Token</h2>
             </div>
           </div>
         </div>

@@ -13,7 +13,8 @@ const BannerTwo = () => {
           <div className="col-lg-12">
             <div className="banner-content text-center">
               <h2 className="title wow fadeInDown" data-wow-delay=".2s">
-                World’s Biggest ICO Cryptocurrency Platform for you
+                {/* World’s Biggest ICO Cryptocurrency Platform for you */}
+                <br /><br></br>
               </h2>
               <img src={bannerImg} alt="img" />
             </div>

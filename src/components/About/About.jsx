@@ -2,6 +2,7 @@ import React from "react";
 import aboutImg from "../../assets/img/images/h2_about_img.png";
 import shape01 from "../../assets/img/images/about_shape01.png";
 import shape02 from "../../assets/img/images/about_shape02.png";
+import WP from "../../assets/img/images/DRX WHITEPAPER.pdf";
 
 const About = () => {
   return (
@@ -22,16 +23,19 @@ const About = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-15">
-                <span className="sub-title">ABOUT Crypto ICO</span>
+                <span className="sub-title">ABOUT DRX</span>
                 <h2 className="title">
-                  Bigtech Theme is the best for your ICO
+                Elevate Your Lifestyle with DRX
                 </h2>
               </div>
               <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
-                platform helps investors to make easy
+              DRX stands as the unrivaled leader worldwide, seamlessly blending cutting-edge NFC technology 
+              with innovative Apparel. Our groundbreaking approach revolutionizes user 
+              experiences by seamlessly integrating into the Web3 landscape. As pioneers, 
+              we've set the standard, making DRX the go-to choice for a harmonious fusion of technology, 
+              fashion, and the decentralized web. Embrace the future with DRX, where NFC meets Apparel in perfect harmony within the Web3 realm.
               </p>
-              <div className="about-list">
+              {/* <div className="about-list">
                 <ul>
                   <li>
                     <i className="fas fa-check"></i>Mouthwatering leading how
@@ -42,16 +46,16 @@ const About = () => {
                     thought
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               <a
-                href={aboutImg}
+                href={WP}
                 download
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-two"
               >
-                Download Document
+                Whitepaper
               </a>
             </div>
           </div>
@@ -59,8 +63,8 @@ const About = () => {
       </div>
 
       <div className="about-shape-wrap">
-        <img src={shape01} alt="" className="shape-one" />
-        <img src={shape02} alt="" className="shape-two rotateme" />
+        {/* <img src={shape01} alt="" className="shape-one" />
+        <img src={shape02} alt="" className="shape-two rotateme" /> */}
       </div>
     </section>
   );

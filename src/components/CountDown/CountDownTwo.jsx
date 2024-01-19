@@ -50,7 +50,7 @@ const CountDownTwo = () => {
               <div id="countdown-gampang"></div>
 
               <div className="custom-countdown-two">
-                <Countdown date={Date.now() + 5000000} renderer={renderer} />
+                <Countdown date={Date.now() + 8305000000} renderer={renderer} />
               </div>
             </div>
           </div>
