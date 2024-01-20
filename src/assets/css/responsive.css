@@ -655,6 +655,15 @@
   }
   .banner-bg-two {
     height: calc(100% - 120px);
+    background-image: url(../img/banner/banner_mobile.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100% - 164px);
+  z-index: -1;
   }
   .banner-bg-two::before {
     height: 400px;
@@ -673,7 +682,7 @@
     margin-bottom: 60px;
   }
   .choose-bg {
-    padding: 130px 0 188px;
+    padding: 230px 0 188px;
   }
   .roadmap-wrap-two .roadmap-item {
     padding: 0 0;
