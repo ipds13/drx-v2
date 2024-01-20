@@ -6,12 +6,11 @@ const RoadmapTwo = () => {
     {
       roadmapTitle: "Q1 2024 Business Focus",
       title: "",
-      info: <>
-      <i className="fa fa-spinner"></i> DRX ACTIVEWEAR products. <br />
-      <i className="fa fa-spinner"></i> DRX partnership with Liga 1 team products. <br />
-      <i className="fa fa-spinner"></i> DRX streetwear products. <br />
-      <i className="fa fa-spinner"></i> Introduction of COC®️ - Concierge of Crime®️ (sister company) high-end apparel line. <br />
-      <i className="fa fa-spinner"></i> Whitepaper & Tokenomics Development. <br />
+      info: <> 
+      <li> <i className="fa fa-spinner"></i> DRX ACTIVEWEAR products. <br /></li>
+      <li><i className="fa fa-spinner"></i> DRX streetwear products. <br /></li>
+      <li><i className="fa fa-spinner"></i> Introduction of COC®️ - Concierge of Crime®️ (sister company) high-end apparel line. <br /></li>
+      <li><i className="fa fa-spinner"></i> Whitepaper & Tokenomics Development. <br /></li>
       </>,
     },
     {
@@ -19,11 +18,10 @@ const RoadmapTwo = () => {
       title: "",
       info: (
         <>
-          <i className="fa fa-spinner"></i> Development of DRX ACTIVEWEAR app features.<br />
-          <i className="fa fa-spinner"></i> Integration of Liga 1 team partnership features.<br />
-          <i className="fa fa-spinner"></i> Launching COC®️ app with unique functionalities.<br />
-          <i className="fa fa-spinner"></i> R&D efforts focused on app development and user engagement strategies.<br />
-          <i className="fa fa-spinner"></i> Initiating the development of Whitepaper & Tokenomics for the DRX APPS.<br />
+          <li> <i className="fa fa-spinner"></i> Development of DRX ACTIVEWEAR app features.<br /></li>
+          <li> <i className="fa fa-spinner"></i> Launching COC®️ app with unique functionalities.<br /></li>
+          <li><i className="fa fa-spinner"></i> R&D efforts focused on app development and user engagement strategies.<br /></li>
+          <li><i className="fa fa-spinner"></i> Initiating the development of Whitepaper & Tokenomics for the DRX APPS.<br /></li>
         </>
       ),
     },
@@ -32,11 +30,9 @@ const RoadmapTwo = () => {
       title: "",
       info: (
         <>
-         <i className="fa fa-spinner"></i>  Signing Pre-Contract agreement with a target of 8 clubs in Indonesia Major League<br />
-         <i className="fa fa-spinner"></i>  Signing at least 3 athlete & Artis for brand ambassadors.<br />
-         <i className="fa fa-spinner"></i>  Opening of flagship DRX megastore.<br />
-         <i className="fa fa-spinner"></i>  Presale token and announcement to the public about the pre-contract with 8 clubs in Indonesia Major League<br />
-         <i className="fa fa-spinner"></i>  ICO TOKEN DRX in Uniswap.<br />
+          <li><i className="fa fa-spinner"></i>  Opening of flagship DRX megastore.<br /></li>
+          <li><i className="fa fa-spinner"></i>  Presale token and announcement<br /></li>
+          <li><i className="fa fa-spinner"></i>  ICO TOKEN DRX in Uniswap.<br /></li>
 
         </>
       ),
@@ -45,8 +41,8 @@ const RoadmapTwo = () => {
       roadmapTitle: "Q2 2024 Apps Focus",
       title: "",
       info: <>
-       <i className="fa fa-spinner"></i>  Developing DRX APPS: Add Friends, Blogging, Live Chat, API News, Payment Gateway Connect, Buy Tickets Merchandise, Weekly, Monthly, Yearly Giveaway.<br />
-       <i className="fa fa-spinner"></i>  Finalizing and optimizing the DRX token integration within the app.<br />
+       <li><i className="fa fa-spinner"></i>  Developing DRX APPS: Add Friends, Blogging, Live Chat, API News, Payment Gateway Connect, Buy Tickets Merchandise, Weekly, Monthly, Yearly Giveaway.<br /></li>
+       <li><i className="fa fa-spinner"></i>  Finalizing and optimizing the DRX token integration within the app.<br /></li>
       </>,
     },
   ];
