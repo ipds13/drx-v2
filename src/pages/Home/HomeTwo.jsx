@@ -13,6 +13,7 @@ import WhyChooseUsTwo from "../../components/WhyChooseUs/WhyChooseUsTwo";
 import LayoutTwo from "../../layouts/LayoutTwo";
 import Sales from "../../components/Sales/Sales";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs"; 
+import TopPartners from "../../components/TopPartners/TopPartners";
 
 const HomeTwo = () => {
   return (
@@ -26,6 +27,7 @@ const HomeTwo = () => {
         <RoadmapTwo />
         {/* <Sales /> */}
         <TeamTwo />
+        <TopPartners />
         <DownloadArea />
         {/* <WhyChooseUs /> */}
         <ContactTwo />
