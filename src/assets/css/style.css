@@ -1121,7 +1121,7 @@ label {
 .banner-social-wrap {
   position: absolute;
   left: 100px;
-  bottom: 90px;
+  bottom: 150px;
 }
 .banner-social-wrap ul li {
   margin-bottom: 25px;
@@ -1161,7 +1161,7 @@ label {
   flex-direction: column;
   position: absolute;
   right: 40px;
-  bottom: 90px;
+  bottom: 150px;
 }
 .banner-scroll span {
   font-size: 12px;

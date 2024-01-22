@@ -11,6 +11,7 @@ import img09 from "../../assets/img/client/duesport.png";
 import img10 from "../../assets/img/client/esb.png";
 import img11 from "../../assets/img/client/indo.png";
 import img12 from "../../assets/img/client/mahadewa.png";
+import img21 from "../../assets/img/partner/gudang.png";
 
 const TopPartners = () => {
   const partners_list = [
@@ -27,6 +28,10 @@ const TopPartners = () => {
     { src: img11, title: "" },
     { src: img12, title: "" },
   ];
+  const client_list = [
+    { src: img21, title: "" },
+  ];
+
 
   return (
     <div className="partner-area pb-130">
@@ -53,7 +58,7 @@ const TopPartners = () => {
         </div>
       </div>
 
-      {/* <div className="container">
+      <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center mb-10">
@@ -65,7 +70,7 @@ const TopPartners = () => {
           <div className="col-lg-12">
             <div className="partner-wrap">
               <ul>
-                {partners_list.map((item, index) => (
+                {client_list.map((item, index) => (
                   <li key={index}>
                     <img src={item.src} alt={item.title} />
                   </li>
@@ -74,7 +79,7 @@ const TopPartners = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
     </div>
 

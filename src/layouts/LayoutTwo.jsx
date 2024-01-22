@@ -7,7 +7,7 @@ import FooterTwo from "../components/Footer/FooterTwo";
 const LayoutTwo = (props) => {
   return (
     <div className={cn("white-background")}>
-      <PageLoader />
+      {/* <PageLoader /> */}
 
       <HeaderTwo />
 

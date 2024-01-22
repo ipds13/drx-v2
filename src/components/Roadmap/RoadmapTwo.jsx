@@ -41,7 +41,7 @@ const RoadmapTwo = () => {
       roadmapTitle: "Q2 2024 Apps Focus",
       title: "",
       info: <>
-       <li><i className="fa fa-spinner"></i>  Developing DRX APPS: Add Friends, Blogging, Live Chat, API News, Payment Gateway Connect, Buy Tickets Merchandise, Weekly, Monthly, Yearly Giveaway.<br /></li>
+       <li><i className="fa fa-spinner"></i>  Developing DRX APPS<br /></li>
        <li><i className="fa fa-spinner"></i>  Finalizing and optimizing the DRX token integration within the app.<br /></li>
       </>,
     },
