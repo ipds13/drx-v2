@@ -26,10 +26,10 @@ const TeamTwo = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-title text-center mb-60">
-              <span className="sub-title">OUr team</span>
+              <span className="sub-title">The Mastermind</span>
               <h2 className="title">
                 {/* The Leadership <br /> */}
-                <span>The Mastermind</span>
+                {/* <span>The Mastermind</span> */}
               </h2>
             </div>
           </div>
