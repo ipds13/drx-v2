@@ -757,9 +757,10 @@
   .section-title .title {
     font-size: 28px;
   }
-  .partner-wrap ul li {
+  /* .partner-wrap ul li {
     width: 100%;
-  }
+    margin-top: 10px;
+  } */
   .chart-content .nav-tabs .nav-item {
     padding: 0 15px 10px;
   }

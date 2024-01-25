@@ -1414,7 +1414,7 @@ label {
   align-items: center;
   justify-content: center;
   margin-left: -1px;
-  margin-top: -1px;
+  margin-top: 10px;
   cursor: pointer;
 }
 .partner-wrap ul li img {
@@ -1873,7 +1873,7 @@ label {
 }
 .roadmap-content {
   position: relative;
-  margin-left: 57px;
+  margin-left: 0px;
   padding-left: 17px;
   padding-top: 110px;
 }

@@ -46,7 +46,7 @@ const TopPartners = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="partner-wrap">
-              <ul>
+              <ul class="list-inline mx-auto justify-content-center">
                 {partners_list.map((item, index) => (
                   <li key={index}>
                     <img src={item.src} alt={item.title} />
@@ -66,21 +66,10 @@ const TopPartners = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-8">
-            <div className="section-title text-center mb-10">
-            {client_list.map((item, index) => (
-                  <li key={index}>
-                    <img src={item.src} alt={item.title} />
-                  </li>
-                ))}
-            </div>
-          </div>
-        </div>
-        {/* <div className="row">
+        <div className="row">
           <div className="col-lg-12">
             <div className="partner-wrap">
-              <ul>
+              <ul class="list-inline mx-auto justify-content-center">
                 {client_list.map((item, index) => (
                   <li key={index}>
                     <img src={item.src} alt={item.title} />
@@ -89,7 +78,7 @@ const TopPartners = () => {
               </ul>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
 
     </div>
