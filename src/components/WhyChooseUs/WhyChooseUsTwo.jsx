@@ -39,8 +39,8 @@ const WhyChooseUsTwo = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-title text-center mb-70">
-              <span className="sub-title">why Choose us</span>
-              <h2 className="title">Why you choose DRX Token</h2>
+              <span className="sub-title">Why choose DRX Token</span>
+              {/* <h2 className="title">Why you choose DRX Token</h2> */}
             </div>
           </div>
         </div>
