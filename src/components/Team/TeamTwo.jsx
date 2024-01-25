@@ -9,12 +9,12 @@ const TeamTwo = () => {
   const team_members = [
     {
       src: img01,
-      name: "Sanjeev",
+      name: "Sanjev",
       designation: "Chief Executive Officer",
     },
     {
       src: img02,
-      name: "Kash",
+      name: "Kash Topan",
       designation: "Chief Marketing Officer",
     },
    
