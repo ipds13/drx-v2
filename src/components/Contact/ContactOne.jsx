@@ -30,10 +30,10 @@ const ContactOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center mb-70">
-              <span className="sub-title">Contact</span>
-              <h2 className="title">
+              <span className="sub-title">Connect with US</span>
+              {/* <h2 className="title">
                 Connect with US
-              </h2>
+              </h2> */}
             </div>
           </div>
         </div>
