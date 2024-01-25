@@ -1335,16 +1335,16 @@ label {
   font-size: 24px;
 }
 .custom-countdown-two .time-count.day {
-  border-color: #0dcaf0;
+  border-color: #af8227;
 }
 .custom-countdown-two .time-count.hour {
-  border-color: #ff9700;
+  border-color: #af8227;
 }
 .custom-countdown-two .time-count.min {
-  border-color: #ff4581;
+  border-color: #af8227;
 }
 .custom-countdown-two .time-count.sec {
-  border-color: #12d176;
+  border-color: #af8227;
 }
 
 
