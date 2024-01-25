@@ -23,26 +23,26 @@ const BannerTwo = () => {
       </div>
       <div className="banner-social-wrap">
         <ul>
-          <li>
+          {/* <li>
             <a href="#" className="banner-social-link">
               <i className="fab fa-linkedin-in"></i>
             </a>
             <span>LinkedIn</span>
-          </li>
+          </li> */}
           <li>
-            <a href="#" className="banner-social-link">
+            <a href="https://twitter.com/DrxToken" target="_blank" className="banner-social-link">
               <i className="fab fa-twitter"></i>
             </a>
             <span>Twitter</span>
           </li>
-          <li>
+          {/* <li>
             <a href="#" className="banner-social-link">
               <i className="fab fa-pinterest"></i>
             </a>
             <span>Pinterest</span>
-          </li>
+          </li> */}
           <li>
-            <a href="#" className="banner-social-link">
+            <a href="https://www.instagram.com/drxtoken/" target="_blank" className="banner-social-link">
               <i className="fab fa-instagram"></i>
             </a>
             <span>Instagram</span>
