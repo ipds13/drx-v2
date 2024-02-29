@@ -1,19 +1,17 @@
 import React from "react";
-import img01 from "../../assets/img/team/h2_team_img10.png";
-import img02 from "../../assets/img/team/h2_team_img12.png";
-import img03 from "../../assets/img/team/h2_team_img03.png";
-import img04 from "../../assets/img/team/h2_team_img04.png";
+import img10 from "../../assets/img/team/h2_team_img10.png";
+import img12 from "../../assets/img/team/h2_team_img12.png";
 import TeamTwoItem from "./TeamTwoItem";
 
 const TeamTwo = () => {
   const team_members = [
     {
-      src: img01,
+      src: img10,
       name: "Sanjev",
       designation: "Chief Executive Officer",
     },
     {
-      src: img02,
+      src: img12,
       name: "Kash Topan",
       designation: "Chief Marketing Officer",
     },
