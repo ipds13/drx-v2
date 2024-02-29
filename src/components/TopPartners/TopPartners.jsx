@@ -15,21 +15,21 @@ import img21 from "../../assets/img/partner/gudang.png";
 
 const TopPartners = () => {
   const partners_list = [
-    { src: img01, title: "" },
-    { src: img02, title: "" },
-    { src: img03, title: "" },
-    { src: img04, title: "" },
-    { src: img05, title: "" },
-    { src: img06, title: "" },
-    { src: img07, title: "" },
-    { src: img08, title: "" },
-    { src: img09, title: "" },
-    { src: img10, title: "" },
-    { src: img11, title: "" },
-    { src: img12, title: "" },
+    { src: img01, title: "" ,link:"https://brickparkour.com/en/"},
+    { src: img02, title: "" ,link:"https://www.hipmijaya.org/"},
+    { src: img03, title: "" ,link:"https://www.iespa.or.id/"},
+    { src: img04, title: "" ,link:"https://ifel.id/"},
+    { src: img05, title: "" ,link:"https://garudaku.com/"},
+    { src: img06, title: "" ,link:"https://www.instagram.com/sensentertainment/?hl=en"},
+    { src: img07, title: "" ,link:"https://www.instagram.com/iwbawoodball/?hl=en"},
+    { src: img08, title: "" ,link:"https://dewaunited.com/"},
+    { src: img09, title: "" ,link:"https://dewaunited.com/esports/home"},
+    { src: img10, title: "" ,link:"https://esportsbrunei.org/"},
+    { src: img11, title: "" ,link:"https://nocindonesia.id/"},
+    { src: img12, title: "" ,link:"https://www.instagram.com/mahadewaesports/"},
   ];
   const client_list = [
-    { src: img21, title: "" },
+    { src: img21, title: "" ,link:"https://gudangkripto.id/"},
   ];
 
 
@@ -49,7 +49,10 @@ const TopPartners = () => {
               <ul class="list-inline mx-auto justify-content-center">
                 {partners_list.map((item, index) => (
                   <li key={index}>
-                    <img src={item.src} alt={item.title} />
+                    <a href={item.link} target="_blank">
+                      <img src={item.src} alt={item.title} />
+                    </a>
+                    
                   </li>
                 ))}
               </ul>
@@ -72,7 +75,9 @@ const TopPartners = () => {
               <ul class="list-inline mx-auto justify-content-center">
                 {client_list.map((item, index) => (
                   <li key={index}>
-                    <img src={item.src} alt={item.title} />
+                    <a href={item.link} target="_blank">
+                      <img src={item.src} alt={item.title} />
+                    </a>
                   </li>
                 ))}
               </ul>
