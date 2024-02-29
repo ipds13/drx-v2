@@ -26,7 +26,7 @@ const HomeTwo = () => {
         <CounterArea />
         <RoadmapTwo />
         {/* <Sales /> */}
-        {/* <TeamTwo /> */}
+        <TeamTwo />
         <TopPartners />
         <DownloadArea />
         {/* <WhyChooseUs /> */}
