@@ -9,11 +9,15 @@ const TeamTwo = () => {
       src: img10,
       name: "Sanjev",
       designation: "Chief Executive Officer",
+      ig:"https://www.instagram.com/sanjevv?igsh=MTlqb25jMGQ4bTk1Nw==",
+      linkedin:"#",
     },
     {
       src: img12,
       name: "Kash Topan",
       designation: "Chief Marketing Officer",
+      ig:"https://www.instagram.com/kashtopan?igsh=dzFyZHlrcTlrcThj",
+      linkedin:"https://www.linkedin.com/in/kash-topan-356895289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
    
   ];
