@@ -7,7 +7,7 @@ const TeamTwo = () => {
   const team_members = [
     {
       src: img10,
-      name: "Sanjev",
+      name: "Sanjev VR",
       designation: "Chief Executive Officer",
       ig:"https://www.instagram.com/sanjevv?igsh=MTlqb25jMGQ4bTk1Nw==",
       linkedin:"#",
