@@ -1,8 +1,8 @@
 import React from "react";
 import aboutImg from "../../assets/img/images/h2_about_img.png";
-import shape01 from "../../assets/img/images/about_shape01.png";
-import shape02 from "../../assets/img/images/about_shape02.png";
-import WP from "../../assets/img/images/DRX WHITEPAPER.pdf";
+// import shape01 from "../../assets/img/images/about_shape01.png";
+// import shape02 from "../../assets/img/images/about_shape02.png";
+// import WP from "../../assets/img/images/DRX WHITEPAPER.pdf";
 
 const About = () => {
   return (
@@ -48,13 +48,14 @@ const About = () => {
                 </ul>
               </div> */}
 
-              <a
+              {/* <a
                 href={WP}
                 download
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-two"
-              >
+              > */}
+              <a href="https://drx-wear.gitbook.io/whitepaper-drx-token/" target="_blank" className="btn btn-two" rel="noopener noreferrer">
                 Whitepaper
               </a>
             </div>
